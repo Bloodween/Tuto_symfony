@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="text-center">Article : {{ action }}</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Libellé</th>
+            <th>Prix</th>
+            <th>Marque</th>
+        </tr>
+
+            <tr>
+                <td>{{ art.Libelle }}</td>
+                <td>{{ art.Prix }}</td>
+                <td>{{ art.Marque }}</td>
+            </tr>
+
+    </table>
+{% endblock %}

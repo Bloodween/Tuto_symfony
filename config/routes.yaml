@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+description:
+  path: desc/{id}
+  controller: App\Controller\ArticleController::showArticle
